@@ -247,11 +247,6 @@ menu {
   display: flex;
   justify-content: space-between;
 }
-.btn {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
 .visually-hidden {
   visibility: hidden;
 }
