@@ -187,8 +187,6 @@ menu {
 
 .top-menu {
   display: flex;
-  justify-content: space-between;
-  padding: 24px 0;
 }
 .our-team {
   padding: 32px 16px;
@@ -210,6 +208,7 @@ menu {
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: 332px;
 }
 .btn {
   display: flex;
@@ -217,7 +216,6 @@ menu {
   gap: 24px;
 }
 .filter.btn {
-  margin-top: 96px;
   margin-bottom: 72px;
 }
 .order.btn {
@@ -225,6 +223,7 @@ menu {
 }
 .project-list,
 .do-it {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 .portfolio-photo {
