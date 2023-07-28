@@ -105,6 +105,7 @@ menu {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  max-width: 496px;
 }
 .order-button {
   background-color: var(--primary-brand-color);
@@ -119,6 +120,9 @@ menu {
   cursor: pointer;
   padding: 16px 32px;
   border-radius: 4px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
 }
 .order-button:hover,
 .order-button:focus {
@@ -180,7 +184,7 @@ menu {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 .top-menu {
@@ -216,7 +220,7 @@ menu {
   align-items: flex-start;
   gap: 8px;
 }
-.menu {
+.navigation {
   display: flex;
   align-items: center;
 }
