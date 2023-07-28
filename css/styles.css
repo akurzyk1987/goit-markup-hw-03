@@ -66,7 +66,6 @@ menu {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
-  padding: 24px 0;
 }
 .menu-item:hover,
 .menu-item:focus {
@@ -187,6 +186,7 @@ menu {
 
 .top-menu {
   display: flex;
+  justify-content: space-between;
 }
 .our-team {
   padding: 32px 16px;
@@ -208,7 +208,6 @@ menu {
 .navigation {
   display: flex;
   align-items: center;
-  margin-right: 332px;
 }
 .btn {
   display: flex;
@@ -267,4 +266,8 @@ menu {
 }
 .job {
   text-align: center;
+}
+.menu-list-item,
+.contacts-list-item {
+  padding: 24px 0;
 }
