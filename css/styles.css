@@ -50,6 +50,9 @@ ul {
 .logo.top {
   color: var(--headings-color);
 }
+.logo.top {
+  margin-right: 76px;
+}
 .bottom {
   color: var(--light-mode-bg-color);
 }
@@ -65,6 +68,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
+  padding: 24px 0;
 }
 .menu-item:hover,
 .menu-item:focus {
@@ -211,9 +215,9 @@ ul {
   align-items: flex-start;
   gap: 8px;
 }
-.logo-and-menu {
+.menu {
   display: flex;
-  gap: 76px;
+  align-items: center;
 }
 .btn {
   display: flex;
