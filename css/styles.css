@@ -31,9 +31,9 @@ menu {
 }
 .photo-list {
   display: flex;
+  gap: 24px;
 }
 .photo-list-item {
-  gap: 24px;
   flex-basis: calc((100% - 48px) / 3);
 }
 .logo {
@@ -56,11 +56,8 @@ menu {
 }
 .bottom {
   color: var(--light-mode-bg-color);
-}
-.bottom-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 17.5px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .menu-item {
   color: var(--headings-color);
@@ -93,6 +90,7 @@ menu {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 100px 0;
 }
 .heading {
   background-color: var(--headings-color);
@@ -184,8 +182,7 @@ menu {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 15px;
 }
 
 .top-menu {
@@ -194,21 +191,14 @@ menu {
   padding: 24px 0;
 }
 .our-team {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+  padding: 32px 16px;
 }
 
 .photo {
   display: block;
 }
 .photo-box {
-  display: inline-flex;
-  padding-bottom: 32px;
-  flex-direction: column;
-  gap: 32px;
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background: var(--header-title-color);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -252,9 +242,7 @@ menu {
 }
 .team-list {
   display: flex;
-  justify-content: center;
   gap: 24px;
-  flex-basis: calc((100% - 72px) / 4);
 }
 .list {
   display: flex;
@@ -275,4 +263,14 @@ menu {
 }
 .brand-description-title {
   margin-bottom: 8px;
+}
+.description-item {
+  max-width: 264px;
+}
+.team-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.job {
+  text-align: center;
 }
