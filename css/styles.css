@@ -250,6 +250,7 @@ ul {
   border: 1px solid var(--subtle-bg-accent-color);
   border-top: none;
   background: var(--header-title-color);
+  margin-bottom: 8px;
 }
 .menu-list {
   display: flex;
