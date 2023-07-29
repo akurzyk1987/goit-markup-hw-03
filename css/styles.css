@@ -37,11 +37,9 @@ ul {
   column-gap: 24px;
   row-gap: 48px;
 }
-.photo-list-category {
-  flex-basis: calc((100% - 48px) / 3);
-}
+.photo-list-category,
 .photo-list-item {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 .logo {
   display: flex;
@@ -258,27 +256,21 @@ ul {
   display: flex;
   gap: 24px;
 }
-.list {
-  display: flex;
-  justify-content: space-between;
-}
 .description-list {
   display: flex;
   gap: 24px;
   flex-basis: calc((100%-72px) / 4);
 }
 .brand-description-title,
-.photo-description-title {
+.product-category,
+.team-name {
   margin-bottom: 8px;
 }
 .description-item,
 .description-item-bottom {
   max-width: 264px;
 }
-.team-name {
-  text-align: center;
-  margin-bottom: 8px;
-}
+.team-name,
 .job {
   text-align: center;
 }
