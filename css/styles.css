@@ -184,7 +184,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin-top: 8px;
+  margin-bottom: 8px;
 }
 .description-item-bottom {
   font-size: 16px;
@@ -269,7 +269,8 @@ ul {
   gap: 24px;
   flex-basis: calc((100%-72px) / 4);
 }
-.brand-description-title {
+.brand-description-title,
+.product-category {
   margin-bottom: 8px;
 }
 .description-item,
