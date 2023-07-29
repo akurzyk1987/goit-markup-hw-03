@@ -170,9 +170,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
-.photo-description-title {
-  margin-bottom: 8px;
-}
 .description-item,
 .job,
 .product-category {
@@ -185,7 +182,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin-bottom: 8px;
+  margin-top: 8px;
 }
 .description-item-bottom {
   font-size: 16px;
@@ -250,7 +247,6 @@ ul {
   border: 1px solid var(--subtle-bg-accent-color);
   border-top: none;
   background: var(--header-title-color);
-  margin-bottom: 8px;
 }
 .menu-list {
   display: flex;
