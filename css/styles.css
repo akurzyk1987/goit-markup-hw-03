@@ -30,7 +30,9 @@ ul {
 }
 .photo-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .photo-list-item {
   flex-basis: calc((100% - 48px) / 3);
@@ -169,6 +171,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.product-category {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 8px;
+}
 .description-item-bottom {
   font-size: 16px;
   line-height: 1.5;
@@ -212,12 +220,12 @@ ul {
   align-items: center;
 }
 .btn {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
 }
 .filter.btn {
   margin-bottom: 72px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .order.btn {
   margin-top: 48px;
@@ -228,10 +236,7 @@ ul {
   padding-bottom: 120px;
 }
 .portfolio-photo {
-  display: flex;
-  flex-direction: column;
   padding: 32px 16px;
-  gap: 8px;
   border: 1px solid var(--subtle-bg-accent-color);
   border-top: none;
   background: var(--header-title-color);
