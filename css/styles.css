@@ -263,7 +263,8 @@ ul {
 }
 .brand-description-title,
 .product-category,
-.team-name {
+.team-name,
+.photo-description-title {
   margin-bottom: 8px;
 }
 .description-item,
