@@ -290,3 +290,6 @@ ul {
 .card {
   text-decoration: none;
 }
+.visually-hidden {
+  display: none;
+}
