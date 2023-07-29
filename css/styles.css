@@ -20,8 +20,7 @@ p {
   margin: 0;
   padding: 0;
 }
-ul,
-menu {
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -66,6 +65,7 @@ menu {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
+  padding: 24px 0;
 }
 .menu-item:hover,
 .menu-item:focus {
@@ -85,7 +85,6 @@ menu {
 }
 .foot {
   background-color: var(--headings-color);
-
   padding: 100px 0;
 }
 .heading {
@@ -187,7 +186,6 @@ menu {
   margin: 0 auto;
   padding: 0 15px;
 }
-
 .top-menu {
   display: flex;
   justify-content: space-between;
@@ -269,6 +267,7 @@ menu {
 .job {
   text-align: center;
 }
-.menu-item {
+.menu-list-item,
+.contacts-list-item {
   padding: 24px 0;
 }
