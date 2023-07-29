@@ -29,6 +29,9 @@ ul {
   border-bottom: 1px solid var(--subtle-bg-accent-color);
 }
 .photo-list {
+  gap: 24px;
+}
+.photo-list-portfolio {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
