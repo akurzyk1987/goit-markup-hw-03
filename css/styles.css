@@ -163,12 +163,13 @@ ul {
 }
 .brand-description-title,
 .team-name,
-.photo-description-title {
+.concept {
   color: var(--headings-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .description-item,
 .job,
@@ -259,11 +260,6 @@ ul {
   display: flex;
   gap: 24px;
   flex-basis: calc((100%-72px) / 4);
-}
-.brand-description-title,
-.team-name,
-.photo-description-title {
-  margin-bottom: 8px;
 }
 .description-item,
 .description-item-bottom {
