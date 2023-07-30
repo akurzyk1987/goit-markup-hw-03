@@ -162,7 +162,8 @@ ul {
   margin-bottom: 72px;
 }
 .brand-description-title,
-.team-name {
+.team-name,
+.concept {
   color: var(--headings-color);
   font-size: 20px;
   font-weight: 500;
@@ -287,14 +288,4 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.concept {
-  color: var(--headings-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
-.product-category {
-  margin-bottom: 8px;
 }
